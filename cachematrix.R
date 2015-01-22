@@ -1,6 +1,6 @@
 ## These functions cache the inverse of an invertible matrix
 ## so that if the contents of the matrix have not changed the
-## inverse does not have ## to be recomputed. 
+## inverse does not have to be recomputed. 
 
 ## The first function creates a list of functions to:
 ## 1. set the vaue of the matrix
