@@ -38,13 +38,3 @@ cachesolve <- function(x, ...) {
       x$setsolve(i)
       i
 }
-
-## Here are two matrices for testing the above functions:
-
-x <- matrix(c(4,3,3,2), 2, 2)
-y <- matrix(c(35,40,42,48,56,40,40,46,52,
-               60,41,42,50,56,65,45,46,55,
-               58,70,50,52,55,60,75), 5, 5)
-
-## to test, reset x to y using the set function stored in the
-## list of functions created by the first function
